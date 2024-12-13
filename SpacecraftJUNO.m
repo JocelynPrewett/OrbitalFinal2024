@@ -1,4 +1,4 @@
-function [rsc,vsc,finalDate] = spacecraft(initialDate)
+function [rsc,vsc,finalDate] = SpacecraftJUNO(initialDate)
 %function [rsc,vsc,finalDate] = spacecraft(initialDate)
 %This is a placeholder function. The spacecraft stays on Earth.
 %% Initialize
