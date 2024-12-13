@@ -27,3 +27,5 @@ error(s)
 end
 VinfOut=vinf*[cos(thetaOut),sin(thetaOut),0];
 Vout=Vp+VinfOut;
+
+%%To Run [Vout, DeltaMin] = flybyJUNO(Vp, Vsc, Delta, mu, rp, ccw);

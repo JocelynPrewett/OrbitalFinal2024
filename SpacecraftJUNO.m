@@ -16,8 +16,7 @@ t=tinit+days(dayCount-1); % index dayCount=1 corresponds to initial time.
 [y,m,d]=ymd(t); % year month day format of current time
 % Use planet_elements_and_sv_coplanar to find current position and
 % velocity
-[~, r, v, ~] =planet_elements_and_sv_coplanar ...
-(1.327e11, 3, y, m, d, 0, 0, 0);
+[~, r, v, ~] =planet_elements_and_sv_coplanar(1.327e11, 3, y, m, d, 0, 0, 0);
 % Update the position and velocity vectors
 rsc(dayCount,:)=[r(1),r(2),0];
 vsc(dayCount,:)=[v(1), v(2),0];
